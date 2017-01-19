@@ -1,0 +1,83 @@
+body {
+	font-family: 'EB Garamond', serif;
+    margin:0;
+    font-size: 1.2em;
+
+}
+
+h1{
+    font-family: 'Lobster', cursive;
+    font-size: 4em;
+    padding-top: 50px;
+    color: #867979;
+}
+
+h2{
+    font-family: 'Pathway+Gothic+One', sans-serif;
+    font-size: 0.9em;
+    color: #936c6c;
+    padding-top: 50px;
+
+}
+
+#git {
+    font-family: 'Pathway+Gothic+One', sans-serif;
+    font-weight: bold;
+    color: #996666;
+    text-align: right;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+    background-color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    font-variant: small-caps;
+    font-size: 0.9em;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: #ccccff;
+    cursor: crosshair;
+}
+
+
+[id^=logo]{
+	padding: 5px;
+}
+
+header{
+	text-align: center;
+}
+
+main {
+    padding: 50px;
+    text-align: left;
+    padding-bottom: 3px;
+}
+
+
+footer {
+	font-size: 0.75em;
+    text-align: center;
+    padding-top: 10px;
+    
+}
+
+

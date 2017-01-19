@@ -1,0 +1,94 @@
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Projects</title>
+        <link href="assets/css/style.css" type="text/css" rel="stylesheet">
+        <script type="text/javascript" src="assets/scripts/jquery-2.2.4.min.js" defer></script><!-- jQuery should be first -->
+        <script type="text/javascript" src="assets/scripts/script.js" defer></script>
+
+        <!-- Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=EB+Garamond|Lobster|Pathway+Gothic+One' rel='stylesheet' type='text/css'>
+    </head>
+    
+    <body>
+        
+        <header id="header">
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#ct">CourseTutor</a></li>
+                    <li><a href="#api">NY Times API</a></li>
+                    <li><a href="#mpl">3D Stem Plot</a></li>
+                    <li><a href="#zotero">Zotero Plugin</a></li>
+                    <li><a href="#blackhole">Black Hole Game</a></li>
+                    <li><a href="#footer">Contact</a></li>
+                    <li id="git"><a href="http://github.com/zqliang">github.com/zqliang</a></li>
+                    
+                </ul>
+
+            <h1>Projects</h1>
+
+           <section id="logo">
+                <a href="#ct"><img id="logo-1" src="assets/img/icons/ct.png" alt="Course Tutor"></a>
+                <a href="#api"><img id="logo-2" src="assets/img/icons/api.png" alt="NY Times REST API"></a>
+                <a href="#mpl"><img id="logo-3" src="assets/img/icons/mpl.png" alt="Matplotlib"></a>
+                <a href="#zotero"><img id="logo-4" src="assets/img/icons/zotero.png" alt="Zotero Plugin"></a>
+                <a href="#blackhole"><img id="logo-5" src="assets/img/icons/blackhole.png" alt="Black Holes Game"></a>
+            </section>
+
+        </header>
+        
+        <main>
+            <section id="ct">
+            <h2>CourseTutor</h2>
+            <p>
+            <img id="logo-1" src="assets/img/ct.png" alt="Course Tutor" align="right">
+            A responsive MEAN stack application for connecting students with tutors. Users are able to sign up through OAuth, search for courses,
+            post their objectives, rate comments and users, message other users, and add or find recommended contacts. 
+            This project was my first exposure to full stack development and application performance analysis.  
+            <br clear="right"></p>
+                
+            </section>
+            <section id="api">
+            <h2>New York Times REST API</h2>
+            <p><img src="assets/img/nytimes.png" align="left">A REST API that parses NY Times data provided in JSON format. The server is set up using Node.js and the front-end can be accessed on localhost:8080. 
+            Documentation is provided; example requests include GET articles by specific date and index. A sample call to GET thumbnails would retrieve img URLs
+            and display them as a list of thumbnails using AJAX, without the need of a full page refresh. <br clear="left">
+            </p></section>
+            <section id="mpl">
+            <h2>3D Stem Plot</h2>
+            <p><img src="assets/img/stemplot.png" align="right">Worked in a Scrum team of 5 to implement and document a new feature in matplotlib using Python. This feature allows users to generate stem plots in a 3D view
+            and rotate the graphs by specifying a fixed axis. The project followed an agile sprint plan and image tests were generated to verify the correct
+            display and orientation of plots. In the process, I learned about software architecture and how to tackle a large open source project.<br clear="right">
+            </p></section>
+            <section id="zotero">
+            <h2>Zotero Plugin</h2>
+            <p>Worked in an agile team to develop a batch tag editing plugin for the Zotero standalone software. The software
+            supports single processing of tags,
+            e.g. in the image below, the user must click on the '-' button beside each tag to remove it from a specific resource in their library. 
+            <img src="assets/img/zotero-1.png"></p>
+            <p>According to our client's request, we provided an intuitive interface which allows the user to edit and search by both tag name and resource name (see sample below).
+            The plugin's capabilities include batch add, delete, rename, and merging of tags. <br>
+            <img src="assets/img/zotero-2.png" alt="Course Tutor">
+            </p></section>
+            <section id="blackhole">
+            <h2>Black Hole Game</h2>
+            <p><img src="assets/img/gamescreen.png" align="right">Implemented an HTML5 canvas game that spawns black (and blue) holes on the screen and sucks in objects that get close to them. The user must click on the holes to destroy
+            them before all the objects are sucked in or before time is up. The game progresses in difficulty as holes are being generated faster and more frequently. 
+            <br clear="right">
+            </p>
+            </section>
+        </main>
+        
+
+        <footer id="footer">
+            <p>
+                &copy; Jessy Liang 2017
+                <br>jessy.liang@mail.utoronto.ca
+            </p>
+        </footer>
+        
+    </body>
+</html> 
