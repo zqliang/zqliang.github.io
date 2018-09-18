@@ -32,8 +32,8 @@
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
+        <li><a href="#quizer">QUIZER</a></li>
         <li><a href="#ct">COURSETUTOR</a></li>
-        <li><a href="#api">NY TIMES API</a></li>
         <li><a href="#mpl">3D STEM PLOT</a></li>
         <li><a href="#zotero">ZOTERO</a></li>
         <li><a href="#blackhole">BLACK HOLE GAME</a></li>
@@ -46,13 +46,13 @@
   <h1>Projects</h1> 
   <h3>A sample collection.</h3>
   <section class="container-fluid text-center">
-  <a href="#ct">
+  <a href="#quizer">
     <span class="glyphicon glyphicon-menu-down"></span>
   </a> 
   </section>
   <section id="logo">
-                <a href="#ct"><img class="logos" id="logo-1" src="assets/img/icons/ct.png" alt="Course Tutor"></a>
-                <a href="#api"><img class="logos" id="logo-2" src="assets/img/icons/api.png" alt="NY Times REST API"></a>
+                <a href="#quizer"><img class="logos" id="logo-1" src="assets/img/icons/quizer.png" alt="Quizer"></a>
+                <a href="#ct"><img class="logos" id="logo-2" src="assets/img/icons/ct.png" alt="Course Tutor"></a>
                 <a href="#mpl"><img class="logos" id="logo-3" src="assets/img/icons/mpl.png" alt="Matplotlib"></a>
                 <a href="#zotero"><img class="logos" id="logo-4" src="assets/img/icons/zotero.png" alt="Zotero Plugin"></a>
                 <a href="#blackhole"><img class="logos" id="logo-5" src="assets/img/icons/blackhole.png" alt="Black Holes Game"></a>
@@ -62,7 +62,27 @@
   
 </div>
 
-<section id="ct" class="container-fluid">
+<div id="quizer" class="container-fluid">
+  <div class="row">
+    <div class="col-sm-5">
+      <img class="img-responsive" src="assets/img/quiz-2.png" alt="Quizer">
+      <img class="img-responsive" src="assets/img/quiz.png" alt="Quizer">
+    </div>
+    <div class="col-sm-7">
+      <h2>Food Waste Quiz App</h2><br>
+      <h4><p>A 12-week quiz app built with MERN stack and published in August 2018.
+        Implemented under the direction of research professors at the University of Toronto, Department of Geography & Planning. </p><br>
+        <p>Once users enter a valid passcode, they are able to take a new quiz each week.
+        Quiz completion is tracked to record users' prize eligibility status.</p>
+        <br>
+        <p><a href="https://food-waste-app.herokuapp.com/">https://food-waste-app.herokuapp.com/</a></p>
+      </h4>
+    </div>
+
+  </div>
+</div>
+
+<div id="ct" class="container-fluid">
   <div class="row">
   <div class="col-sm-3">
       <img class="img-responsive" src="assets/img/ct-login.png" alt="Course Tutor"> 
@@ -71,24 +91,10 @@
       <h2>CourseTutor</h2><br>
       <h4><p>A responsive MEAN stack application for connecting students with tutors. Once signed in, users are able to search through courses,
       post comments, message other users, and find contacts. </p><br>
-      <p>The app was tested using Mocha, Chai, Casper and Phantom. Performance anaylsis was done with the use of YSlow.</p></h4><br>
+      <p>The app was tested using Mocha, Chai, Casper and Phantom. Performance analysis was done with the use of YSlow.</p>
+        <br>
+      <p><a href="https://coursetutor.herokuapp.com">https://coursetutor.herokuapp.com/</a> </p></h4><br>
      
-    </div>
-    
-  </div>
-</section>
-
-<div id="api" class="container-fluid">
-  <div class="row">
-  <div class="col-sm-3">
-     <img class="img-responsive" src="assets/img/nytimes.png" alt="NY Times API"> 
-    </div>
-    <div class="col-sm-9">
-      <h2>NY Times API</h2><br>
-      <h4><p>Designed and documented a REST API that parses NY Times data provided in JSON format. 
-            A sample call to GET THUMBNAILS would retrieve img URLs and display them as a list of thumbnails using AJAX. </p><br>
-            <p>Server was set up with Node.js.</p></h4>
-      
     </div>
     
   </div>
@@ -97,14 +103,14 @@
 <div id="mpl" class="container-fluid">
   <div class="row">
   
-    <div class="col-sm-8">
+    <div class="col-sm-6">
       <h2>3D Stem Plot</h2><br>
-      <h4><p>A new feature for matplotlib written in Python, which allows users to generate stem plots in a 3D view
-            and rotate the graphs by specifying a fixed axis. </p><br>
-      <p>A detailed sprint plan was followed and image tests were generated throughout the development of this feature.</p></h4>
+      <h4><p>A new feature written in Python for the open source plotting library, matplotlib. Allows users to generate stem plots in a 3D view
+            and rotate the graphs by specifying a fixed axis.</p><br>
+      </h4>
       
     </div>
-    <div class="col-sm-4">
+    <div class="col-sm-6">
       <img class="img-responsive" src="assets/img/stemplot.png" alt="3D Stem Plot"> 
     </div>
   </div>
@@ -112,13 +118,14 @@
 
 <div id="zotero" class="container-fluid">
   <div class="row">
-    <div class="col-sm-8">
+    <div class="col-sm-6">
       <h2>Zotero</h2><br>
-      <h4><p>A batch tag editing plugin for the Zotero software which allows users to search for and edit multiple tagged resources in their library concurrently.</p><br>
+      <h4><p>A batch tag editing plugin that can be added to the open source Zotero desktop software. This
+        feature allows users to search and edit multiple tagged articles and resources in their library.</p><br>
       <p></p></h4>
 
     </div>
-    <div class="col-sm-4">
+    <div class="col-sm-6">
       <img class="img-responsive" src="assets/img/zotero-2.png" alt="Zotero Plugin"> 
     </div>
   </div>
@@ -126,14 +133,14 @@
 
 <div id="blackhole" class="container-fluid">
   <div class="row">
-    <div class="col-sm-8">
+    <div class="col-sm-7">
       <h2>Black Hole Game</h2><br>
       <h4><p></p><br>
       <p>An HTML5 canvas game where the user must click on randomly generated black and blue holes to detroy them, before they pull in all the floating objects in space or
       before time runs out.</p><br>
       <p>Levels progress in difficulty with increasing black hole spawns.</p></h4>
     </div>
-    <div class="col-sm-4">
+    <div class="col-sm-5">
       <img class="img-responsive" src="assets/img/gamescreen.png" alt="Black Hole Game"> 
     </div>
   </div>

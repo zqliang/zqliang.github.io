@@ -50,7 +50,7 @@ a:hover{
     
   }
   .container-fluid {
-      padding: 45px 45px;
+      padding: 50px 100px;
   }
   .navbar {
 
@@ -58,7 +58,7 @@ a:hover{
       opacity:0.9;
       margin-bottom: 0;
       margin-top: 0;
-      background-color:  #b2b2b2;
+      background-color:  #948A97;
       z-index: 9999;
       border: 0;
       letter-spacing: 3px;

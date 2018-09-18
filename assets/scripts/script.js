@@ -38,10 +38,10 @@ $(document).ready(function(){
   $(window).scroll(function() {
     //change nav bar color on scroll/click
     if ($(document).scrollTop() > 600){
-      $('nav').css('background-color', '#c2b6b8');
+      $('nav').css('background-color', '#c8c3cc');
     }
     else{
-      $('nav').css('background-color', '#b2b2b2');
+      $('nav').css('background-color', '#948A97');
     }
 
     $(".slideanim").each(function(){
